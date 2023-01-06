@@ -1,0 +1,15 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+header, main, footer {
+    width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: lightblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
