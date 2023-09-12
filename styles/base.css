@@ -1,0 +1,56 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    max-width: 100%;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #283618;
+    color: #FEFAE0;
+    text-align: center;
+}
+header img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    background-color: #BC6C25;
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    background-color: #FEFAE0;
+    align-items: center;
+    display: grid;
+}
+main h2 {
+    text-align: left;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#activities {
+    text-align: left;
+    padding: 2rem;
+    
+}
+#info {
+    padding: 2rem;
+}
+footer{
+    background-color: #606C38;
+    color: #FEFAE0;
+}

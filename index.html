@@ -6,10 +6,15 @@
     <meta name="description" content="WDD230 - Web Frontend Development | Alejandra Bradford | Course Assignment Portal">
     <meta name="author" content="Alejandra Bradford">
     <title>Alejandra Bradford - WDD 230 - Web Frontend Development</title>
-</head>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+  </head>
 <body>
     <header>
-        <img src="images/profile-pic.webp" alt="profile picture">
+        <img src="images/profile-pic1.webp" alt="profile picture">
         <h1>Alejandra Bradford</h1>
     </header>
     <nav>
@@ -20,7 +25,28 @@
         <li><a href="">Form</a></li>
       </ul>
     </nav>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h2>WDD 230: Web Frontend Development</h2>
+      <section class="card" id="activities">
+        <h3>Learning Activities</h3>
+        <ul>
+          <li>Week 01:<a></a></li>
+          <li>Week 02:<a></a></li>
+          <li>Week 03<a></a></li>
+          <li>Week 04:<a></a></li>
+          <li>Week 05:<a></a></li>
+          <li>Week 06:<a></a></li>
+        </ul>
+      </section>
+      <section class="card" id="info">
+        <h3>Information</h3>
+        <p>placeholder</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;<span id="year"></span> | Alejandra Bradford | Utah</p>
+      <p id="lastModified"> Last Updated: <span></span></p>
+    </footer>
+    <script src="getDate.js"></script>
 </body>
 </html>
