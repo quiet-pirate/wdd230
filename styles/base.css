@@ -34,9 +34,11 @@ main{
     background-color: #FEFAE0;
     align-items: center;
     display: grid;
+    grid-template-columns: 1fr;
 }
 main h2 {
     text-align: left;
+    margin: 2rem;
 }
 body{
     margin-left: 20%;
@@ -45,10 +47,13 @@ body{
 #activities {
     text-align: left;
     padding: 2rem;
-    
+    border-style: solid;
+    margin: 1rem;
 }
 #info {
     padding: 2rem;
+    border-style: solid;
+    margin: 1rem;
 }
 footer{
     background-color: #606C38;
