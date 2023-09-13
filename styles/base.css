@@ -29,6 +29,10 @@ nav a{
     display: block;
     text-align: center;
     padding: 1rem;
+    color: #FEFAE0;
+}
+nav a:hover{
+    border: 1px solid #fff;
 }
 main{
     background-color: #FEFAE0;
