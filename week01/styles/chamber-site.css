@@ -1,0 +1,58 @@
+body{
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Rubik', sans-serif;
+}
+h1,h2{
+    font-family: 'Trirong', serif;
+    font-style: italic;
+    background-color: #004E98;
+    color: white;
+}
+.primary{
+    background-color: #004E98;
+    color: white;
+}
+.secondary{
+    background-color: #3A6EA5;
+    color: white;
+}
+.accent1{
+    background-color: #FF6700;
+    color: white;
+}
+.accent2{
+    background-color: #EBEBEB;
+}
+.sample1{
+    font-family: 'Trirong', serif;
+    font-style: italic;
+}
+.sample2{
+    font-family: 'Rubik', sans-serif;
+}
+.sample3{
+    font-family: 'Rubik', sans-serif;
+    background-color: #3A6EA5;
+    color: white;
+}
+.sample4{
+    font-family: 'Trirong', serif;
+    font-style: italic;
+}
+.sample5{
+    font-family: 'Trirong', serif;
+    font-style: italic;
+}
+.sample6{
+    font-family: 'Trirong', serif;
+    font-style: italic;
+}
+.sample7{
+    font-family: 'Rubik', sans-serif;
+
+}
+footer{
+    background-color: #3A6EA5;
+    color: white;
+}
