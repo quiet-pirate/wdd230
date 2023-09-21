@@ -1,12 +1,27 @@
 @media screen and (min-width: 640px){
-    nav ul{
+    /*nav ul{
         list-style-type: none;
         display: flex;
     }
     nav ul li{
         flex: 1 1 100%;
+    }*/
+  
+    .navigation{
+        display: flex;
+        background-color: #BC6C25;
     }
-    main{
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a{
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+      main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

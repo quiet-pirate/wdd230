@@ -18,7 +18,23 @@ header img{
     margin-left: auto;
     margin-right: auto;
 }
-nav{
+
+
+#menu{
+    display: block;
+    font-size: 1.5rem;
+    border:1px solid black;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#menu::before {
+    content:"☰";
+}
+#menu.open::before{
+    content:"";
+}
+/*nav{
     background-color: #BC6C25;
     margin: 0 auto;
 }
@@ -33,6 +49,25 @@ nav a{
 }
 nav a:hover{
     border: 1px solid #fff;
+}*/
+.navigation{
+    list-style: none;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+}
+.navigation a:hover, navigation a:active{
+    color: white;
+    background-color: black;
+}
+.show li{
+    display: block;
+}
+#menu.show::before{
+    content:"X";
 }
 main{
     background-color: #FEFAE0;
@@ -47,6 +82,13 @@ main h2 {
 body{
     margin-left: 20%;
     margin-right: 20%;
+}
+#mode{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
 }
 #activities {
     text-align: left;
