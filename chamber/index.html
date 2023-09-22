@@ -23,25 +23,46 @@
     <header>
         <h1>Cache County Chamber of Commerce</h1>
     </header>
+    <a id="menu" href="#"></a>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Discover</li>
-            <li>Directory</li>
-            <li>Join</li>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <img>
-        <div>Join</div>
-        <section class="event">Event</section>
-        <section class="weather">Weather</section>
-        <section class="spotlight">Spotlight</section>
+    <main class="home-grid">
+        <section class="hero">
+            <h2>Welcome to Cache Valley</h2>
+            <img src="images/green_river.webp" alt="mountains with river and greenery">
+        </section>
+        <section class="join">
+            <h3>Join</h3>
+            <p><a href="#">Join the Chamber</a></p>
+        </section>
+        <section class="event">
+            <h3>Museum Open House</h3>
+            <p>Join us at the museum openhouse tomorrow at 9 a.m.! We will have treats and prizes.</p>
+        </section>
+        <section class="weather">
+            <h3>Weather</h3>
+            <img src="images/cloudy.webp" alt="clouds">
+            <p>Cloudy with a chance of meatballs</p>
+        </section>
+        <section class="spotlight">
+            <h3>Spotlight</h3>
+            <p>The Recreation Enterprise</p>
+            <p>An endeavor to teach families resiliency</p>
+            <p>Located inside the Emporium Center</p>
+            <p>Open every day from 3 p.m. to 7 p.m.</p>
+        </section>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Alejandra Bradford | Utah</p>
         <p id="lastModified"> Last Updated: <span id="currentDate"></span></p>
     </footer>
     <script src="scripts/getDate.js"></script>
+    <script src="scripts/hamButton.js"></script>
 </body>
 </html>
