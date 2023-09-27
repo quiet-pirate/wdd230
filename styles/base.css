@@ -19,7 +19,6 @@ header img{
     margin-right: auto;
 }
 
-
 #menu{
     display: block;
     font-size: 1.5rem;
@@ -73,6 +72,7 @@ nav a:hover{
 
 main{
     background-color: #FEFAE0;
+    color: black;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -82,8 +82,8 @@ main h2 {
     margin: 2rem;
 }
 body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .hero {
     margin: 10px auto;
@@ -126,6 +126,10 @@ body{
     padding: 2rem;
     border-style: solid;
     margin: 1rem;
+}
+.map{
+    width:650px;
+    margin: 0 auto;
 }
 footer{
     background-color: #606C38;
