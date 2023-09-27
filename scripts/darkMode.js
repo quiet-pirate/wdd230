@@ -1,5 +1,5 @@
 const modeButton = document.querySelector("#mode");
-const main = document.querySelector("header");
+const main = document.querySelector("main");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {

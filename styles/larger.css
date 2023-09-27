@@ -1,12 +1,5 @@
 @media screen and (min-width: 640px){
-    /*nav ul{
-        list-style-type: none;
-        display: flex;
-    }
-    nav ul li{
-        flex: 1 1 100%;
-    }*/
-  
+ 
     .navigation{
         display: flex;
         background-color: #BC6C25;
@@ -21,9 +14,13 @@
     #menu{
         display: none;
     }
-      main{
+    main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hero img{
+        width: 100%;
+        height: auto;
     }
     main h2{
         grid-column: 1/4;

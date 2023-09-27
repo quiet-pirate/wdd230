@@ -24,9 +24,10 @@ header img{
     display: block;
     font-size: 1.5rem;
     border:1px solid black;
-    position: absolute;
+    /*position: absolute;*/
     top: 1rem;
     right: 1rem;
+    text-decoration: none;
 }
 #menu::before {
     content:"☰";
@@ -34,22 +35,6 @@ header img{
 #menu.open::before{
     content:"";
 }
-/*nav{
-    background-color: #BC6C25;
-    margin: 0 auto;
-}
-nav ul{
-    list-style-type: none;
-}
-nav a{
-    display: block;
-    text-align: center;
-    padding: 1rem;
-    color: black;
-}
-nav a:hover{
-    border: 1px solid #fff;
-}*/
 .navigation{
     list-style: none;
 }
@@ -58,6 +43,7 @@ nav a:hover{
 }
 .navigation a{
     display: block;
+    text-decoration: none;
 }
 .navigation a:hover, navigation a:active{
     color: white;
@@ -69,6 +55,22 @@ nav a:hover{
 #menu.show::before{
     content:"X";
 }
+nav ul{
+    list-style-type: none;
+}
+section ul{
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+
 main{
     background-color: #FEFAE0;
     align-items: center;
@@ -82,6 +84,30 @@ main h2 {
 body{
     margin-left: 20%;
     margin-right: 20%;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    height: 300px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.herolabel{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background: radial-gradient(#fff,rgb(12, 43, 66));
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+.herolabel p{
+    margin: 0;
+    padding: .25rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
 #mode{
     position: absolute;
