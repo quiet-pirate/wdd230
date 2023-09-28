@@ -88,7 +88,7 @@ body{
 .hero {
     margin: 10px auto;
     position: relative;
-    height: 300px;
+    /* height: 300px; */
 }
 .hero img{
     width: 100%;
@@ -128,7 +128,8 @@ body{
     margin: 1rem;
 }
 .map{
-    width:650px;
+    width:100%;
+    height: auto;
     margin: 0 auto;
 }
 footer{
