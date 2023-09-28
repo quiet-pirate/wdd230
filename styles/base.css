@@ -129,8 +129,8 @@ body{
 }
 .map{
     width:100%;
-    height: auto;
-    margin: 0 auto;
+    height: 400px;
+    margin: 1rem auto;
 }
 footer{
     background-color: #606C38;
