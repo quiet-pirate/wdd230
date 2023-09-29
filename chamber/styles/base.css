@@ -90,6 +90,11 @@ h3{
     background-color: #004E98;
     color: white;
 }
+.calendar{
+    height: 400px;
+    width: 400px;
+    margin: 45px;
+}
 footer{
     font-family: 'Rubik';
     font-size: 20px;
