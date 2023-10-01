@@ -4,22 +4,21 @@ const visitsDisplay = document.querySelector(".visits");
 const currentDate = Date.now();
 //set num of visits counter
 //if first time: display Welcome message
-//if visit less than a day display message2
-//else: message3 days betwwen visits
-    //if message 3 = 1 change to day
-
-//--------------CodePen Example---------------//
-
 let numVisits = Number(window.localStorage.getItem("numVisits-Is"))|| 0;
 if (numVisits !==0){
     visitsDisplay.textContent = numVisits;
-    //If the amount of time between visits is less than a day, display "Back so soon! Awesome!".
-
 } else{
     visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`
 }
 numVisits++;
 localStorage.setItem("numVisits-Is", numVisits);
+//if visit less than a day display message2
+ //If the amount of time between visits is less than a day, display "Back so soon! Awesome!".
+//else: message3 days betwwen visits
+    //if message 3 = 1 change to day
+
+
+//--------------CodePen Example---------------//
 
 // initialize display elements
 const todayElement = document.querySelector("#today");
