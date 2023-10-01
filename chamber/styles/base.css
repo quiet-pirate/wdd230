@@ -48,6 +48,9 @@ nav{
     color: black;
     background-color: #FF6700;
 }
+.navigation a:visited{
+    color: #f2d366;
+}
 .show li{
     display: block;
 }
