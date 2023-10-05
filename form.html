@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="form">
+    <meta name="author" content="Alejandra Bradford">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <img src="images/profile-pic1.webp" alt="profile picture">
+        <h1>Alejandra Bradford</h1>
+        <div id="mode">	☑️</div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="">Form</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form method="get" action="record.html">
+        <fieldset>
+            <legend>Form</legend>
+            <label><input type="text" id=""name="" required>Username</label>
+            <label><input type="text" id=""name="" required>Password</label>
+            <label><input type="text" id=""name="" required>Repeat Password</label>
+            <label><input type="text" id=""name="" required>Email</label>
+            <label><input type="text" id=""name="" required>Page Rating</label>
+            <label for="r">INPUT: range, min, max, datalist, required</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+	            <option value="0">0</option>
+	            <option value="1">1</option>
+	            <option value="2">2</option>
+	            <option value="3">3</option>
+	            <option value="4">4</option>
+	            <option value="5">5</option>
+            </datalist>
+        </fieldset>
+        <input type="submit" value="Send Info" class="submitBtn">
+
+      </form>
+    </main>
+    <footer>
+      <p>&copy;<span id="year"></span> | Alejandra Bradford | Utah</p>
+      <p id="lastModified"> Last Updated: <span id="currentDate"></span></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+    <script src="scripts/hamButton.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visits.js"></script>
+    <scripts src="scripts/form.js"></script>
+</body>
+</html>
