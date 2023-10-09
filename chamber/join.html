@@ -32,31 +32,29 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main class="home-grid">
-        <section class="hero">
-            <h2>Welcome to Cache Valley</h2>
-            <img src="images/green_river.webp" alt="mountains with river and greenery">
-        </section>
-        <section class="join">
-            <h3>Join</h3>
-            <p><a href="#">Join the Chamber</a></p>
-        </section>
-        <section class="event">
-            <h3>Museum Open House</h3>
-            <p>Join us at the museum openhouse tomorrow at 9 a.m.! We will have treats and prizes.</p>
-        </section>
-        <section class="weather">
-            <h3>Weather</h3>
-            <img src="images/cloudy.webp" alt="clouds">
-            <p>Cloudy with a chance of meatballs</p>
-        </section>
-        <section class="spotlight">
-            <h3>Spotlight</h3>
-            <p>The Recreation Enterprise</p>
-            <p>An endeavor to teach families resiliency</p>
-            <p>Located inside the Emporium Center</p>
-            <p>Open every day from 3 p.m. to 7 p.m.</p>
-        </section>
+    <main class="form-grid">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <label><input type="text" id="fname" name="fname">First Name</label>
+                <label><input type="text" id="lname" name="lname">Last Name</label>
+                <label><input type="text" name="title">Title</label>
+                <label><input type="email" name="email">Email Address</label>
+                <label><input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Mobile</label>
+                <label><input type="text" name="business">Business/Organization's Name</label>
+                <label><input name="membership">Membership Level</label>
+                    <select>
+                        <option value=""></option>
+                        <option value="1">Bronze Mmebership</option>
+                        <option value="2">Silver Membership</option>
+                        <option value="3">Gold Membership</option>
+                    </select>
+                <label>Describe your business
+                    <textarea></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="" class="submitBtn">
+        </form>
+    
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Alejandra Bradford | Utah</p>

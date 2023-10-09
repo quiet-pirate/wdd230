@@ -25,12 +25,13 @@
     </nav>
     <main>
       <form method="get" action="record.html">
+        <div id="formmessage"></div>
         <fieldset>
             <legend>Form</legend>
-            <label><input type="text" id=""name="" required>Username</label>
-            <label><input type="text" id=""name="" required>Password</label>
-            <label><input type="text" id=""name="" required>Repeat Password</label>
-            <label><input type="text" id=""name="" required>Email</label>
+            <label><input type="text" id=""name="username" required>Username</label>
+            <label><input type="password" id="pwd"name="pwd" pattern="[A-Za-z]{8}"required>Password</label>
+            <label><input type="password" id="pwd"name="pwd" pattern="[A-Za-z]{8}"required>Repeat Password</label>
+            <label><input type="text" id=""name="email" placeholder="someone@gmail.com"required>Email</label>
             <label><input type="text" id=""name="" required>Page Rating</label>
             <label for="r">INPUT: range, min, max, datalist, required</label>
             <div id="rangevalue">0</div>
@@ -44,7 +45,7 @@
 	            <option value="5">5</option>
             </datalist>
         </fieldset>
-        <input type="submit" value="Send Info" class="submitBtn">
+        <input type="submit" value="Create Account" class="submitBtn">
 
       </form>
     </main>
