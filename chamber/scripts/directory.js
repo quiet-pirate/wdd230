@@ -34,20 +34,23 @@ async function displayMembers(members){
         let phone = document.createElement('p');
         let url = document.createElement('a');
         let image = document.createElement('img');
+        let level = document.createElement('p');
 
         h2.textContent = `${member.name}`;
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phoneNumber}`;
         url.textContent = `${member.url}`;
+        level.textContent = `${member.level}`;
 
         image.setAttribute('src', member.image);
 
 
         card.appendChild(h2);
+        card.appendChild(image);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(url);
-        card.appendChild(image);
+        cards.appendChild(level);
 
         cards.appendChild(card);
     });

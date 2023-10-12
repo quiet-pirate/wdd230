@@ -50,16 +50,16 @@
             "address":"875 N 1000 W, Logan",
             "phoneNumber":"435-752-6405",
             "url":"https://www.cve.com/",
-            "image":"",
+            "image":"images/cache-electric.png",
             "level":"",
             "other":""
         },
         {
-            "name":"",
-            "address":"",
-            "phoneNumber":"",
-            "url":"",
-            "image":"",
+            "name":"Beaver Mountain SkiArea, Inc.",
+            "address":"1351 E 700 N, Logan",
+            "phoneNumber":"435-753-0921",
+            "url":"https://www.skithebeav.com/",
+            "image":"images/beaver.png",
             "level":"",
             "other":""
         }
