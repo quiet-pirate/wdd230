@@ -1,0 +1,67 @@
+{
+    "members":[
+        {
+            "name":"Angie's",
+            "address":"690 N Main St, Logan",
+            "phoneNumber":"435-752-9252",
+            "url":"https://angiesrest.com/",
+            "image":"",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"KSM Music",
+            "address":"50 W 400 N, Logan",
+            "phoneNumber":"435-753-6813",
+            "url":"https://ksmmusic.com/",
+            "image":"images/angies.png",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"Bearnson & Caldwell Attorneys",
+            "address":"399 N Main St Suite 270, Logan",
+            "phoneNumber":"435-752-6300",
+            "url":"https://bearnsonlaw.com/",
+            "image":"",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"Alpine Cleaning & Restoration",
+            "address":"177 S Main St, Logan",
+            "phoneNumber":"435-563-3707",
+            "url":"https://www.alpinecleaning.com/",
+            "image":"",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phoneNumber":"",
+            "url":"",
+            "image":"",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phoneNumber":"",
+            "url":"",
+            "image":"",
+            "level":"",
+            "other":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phoneNumber":"",
+            "url":"",
+            "image":"",
+            "level":"",
+            "other":""
+        }
+    ]
+}

@@ -16,7 +16,7 @@ async function getLinks(){
 } 
 function displayLinks(weeks){
     const activityLinks = document.querySelector(".card ul");
-    activityList.innerHTML = "";
+    activityLinks.innerHTML = "";
 
     weeks.forEach((weekData) => {
         const weekItem = document.createElement("li");
@@ -33,7 +33,7 @@ function displayLinks(weeks){
         });
     
         weekItem.appendChild(linksList);
-        activityList.appendChild(weekItem);
+        activityLinks.appendChild(weekItem);
       });
     }
 
