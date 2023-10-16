@@ -20,6 +20,7 @@
     
 </head>
 <body>
+    <div class="hidden" id="banner"><span>Come and join us for the chamber meet and gree on Wednesdat at 7:00 p.m.</span></div>
     <header>
         <h1>Cache County Chamber of Commerce</h1>
     </header>
@@ -39,7 +40,7 @@
         </section>
         <section class="join">
             <h3>Join</h3>
-            <p><a href="#">Join the Chamber</a></p>
+            <p><a href="join.html">Join the Chamber</a></p>
         </section>
         <section class="event">
             <h3>Museum Open House</h3>
@@ -47,8 +48,11 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <img src="images/cloudy.webp" alt="clouds">
-            <p>Cloudy with a chance of meatballs</p>
+            <figure>
+            <img src="http://openweathermap.org/img/w/04n.png"  alt="" id="weather-icon">
+            <figcaption></figcaption>
+            </figure>
+            <p><span id="current-temp"></span></p>
         </section>
         <section class="spotlight">
             <h3>Spotlight</h3>
@@ -67,5 +71,6 @@
     </footer>
     <script src="scripts/getDate.js"></script>
     <script src="scripts/hamButton.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
