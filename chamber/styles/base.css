@@ -1,6 +1,15 @@
 *{
     font-family: 'Rubik';
 }
+#banner{
+    background-color: pink;
+}
+.hidden{
+    display:none;
+}
+.visible{
+    display: block;
+}
 header{
     display: grid;
     font-family: 'Trirong';

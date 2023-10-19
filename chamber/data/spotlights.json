@@ -1,0 +1,40 @@
+{
+    "spotlights":[
+        {
+            "business":"Angie's",
+            "level":"Gold",
+            "message":"'Where the locals eat! As it is our tradition, we will be providing free Thanksgiving meals to all veterans and law enforcement.Thank you for your continuing support. "
+        
+        },
+        {
+            "business":"KSM Music",
+            "level":"Bronze",
+            "message":""
+        },
+        {
+            "business":"Bearnson & Cadwell Attorneys",
+            "level":"",
+            "message":""
+        },
+        {
+            "business":"Alpine Cleaning and Restoration",
+            "level":"",
+            "message":""
+        },
+        {
+            "business":"Stokes Nature Center",
+            "level":"",
+            "message":""
+        },
+        {
+            "business":"Cache Valley Electric",
+            "level":"",
+            "message":""
+        },
+        {
+            "business":"Beaver Mountain SkiArea, Inc.",
+            "level":"",
+            "message":""
+        }
+    ]
+}
