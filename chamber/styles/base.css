@@ -165,12 +165,25 @@ h3{
 }
 
 /*FORM*/
-
+.form{
+    background-color: #445ba9;
+}
+form {
+    text-align: left;
+    background-color: white;
+}
 form fieldset{
     margin: 2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding:.5rem 2%;
+}
+form label{
+    display: block;
+    padding: 1%;
+}
+form input{
+    display: block;
 }
 form legend{
     color: #445ba9;
@@ -180,7 +193,7 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c1c13;
+    color: #445ba9;
     font-size: .8rem;
 }
 form label.top input, form label.top select{
@@ -202,7 +215,7 @@ form label.sbs{
 }
 form input.submitBtn{
     border: none;
-    background-color: #9c2c13;
+    background-color: #445ba9;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

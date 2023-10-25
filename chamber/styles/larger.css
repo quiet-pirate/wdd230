@@ -103,4 +103,9 @@
     .hover:hover {
         box-shadow: 0 0 50px #333;
     }
+    /*FORM*/
+   #levels div{
+    height: auto;
+    width: auto;
+   }
 }

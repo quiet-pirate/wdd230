@@ -44,22 +44,62 @@
             </fieldset>
             <fieldset>
                 <legend>Organizational Information</legend>
-                <label><input type="text" name="business">Business/Organization's Name</label>
-                <label><input name="membership">Membership Level</label>
-                    <select>
+                <label class="business-name"><input type="text" name="business">Business/Organization's Name</label>
+                <label class="membership-level"><input name="membership">Membership Level</label>
+                    <select id="membership-level" name="membership-level">
                         <option value=""></option>
                         <option value="0">Non Profit Membership (no fee) </option>
                         <option value="1">Bronze Membership</option>
                         <option value="2">Silver Membership</option>
                         <option value="3">Gold Membership</option>
                     </select>
-                <label>Describe your business
-                    <textarea></textarea>
+                <label class="description">Describe your business
+                    <textarea id="description" name="description"></textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="" class="submitBtn">
+            <input type="hidden" name="form-loaded-time" value>
+            <input id="submit" type="submit" value="Apply for Membership" class="submitBtn">
         </form>
-    
+    <div id="levels" class="display-medium">
+        <h1>Membership Benefits</h1>
+        <hr>
+        <div class="benefits">
+            <h3>Non Profit Organization</h3>
+            <p>Free of Charge</p>
+            <ul>
+                <li>Registration</li>
+                <li>Classes</li>
+                <li>Networking events</li>
+                <li>Website Listing</li>
+            </ul>
+        </div>
+        <div class="benefits">
+            <h3>Bronze</h3>
+            <p>$125 / year</p>
+            <ul>
+                <li>All benefits from Non Profit, plus:</li>
+                <li>Business Hours Support</li>
+            </ul>
+        </div>
+        <div class="benefits">
+            <h3>Silver</h3>
+            <p>$350 / year</p>
+            <ul>
+                <li>All benefits from Bronze, plus:</li>
+                <li>Events Discounts</li>
+                <li>After Hours Emergency Support</li>
+            </ul>
+        </div>
+        <div class="benefits">
+            <h3>Gold</h3>
+            <p>$500 / year</p>
+            <ul>
+                <li>All benefits fron Silver, plus:</li>
+                <li>Support 24/7</li>
+                <li>Booth at the Annual Chamber Fair</li>
+            </ul>
+        </div>
+    </div>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Alejandra Bradford | Utah</p>
