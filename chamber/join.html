@@ -35,16 +35,21 @@
     <main class="form-grid">
         <form method="get" action="thankyou.html">
             <fieldset>
-                <label><input type="text" id="fname" name="fname">First Name</label>
-                <label><input type="text" id="lname" name="lname">Last Name</label>
-                <label><input type="text" name="title">Title</label>
-                <label><input type="email" name="email">Email Address</label>
-                <label><input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Mobile</label>
+                <legend>Applicant Information</legend>
+                <label class="first-name"><input type="text" id="fname" name="fname">First Name</label>
+                <label class="last-name"><input type="text" id="lname" name="lname">Last Name</label>
+                <label class="position-title"><input type="text" name="title">Title</label>
+                <label class="email"><input type="email" name="email">Email Address</label>
+                <label class="cell-phone"><input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Mobile</label>
+            </fieldset>
+            <fieldset>
+                <legend>Organizational Information</legend>
                 <label><input type="text" name="business">Business/Organization's Name</label>
                 <label><input name="membership">Membership Level</label>
                     <select>
                         <option value=""></option>
-                        <option value="1">Bronze Mmebership</option>
+                        <option value="0">Non Profit Membership (no fee) </option>
+                        <option value="1">Bronze Membership</option>
                         <option value="2">Silver Membership</option>
                         <option value="3">Gold Membership</option>
                     </select>
