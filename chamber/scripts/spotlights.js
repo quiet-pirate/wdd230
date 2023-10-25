@@ -6,7 +6,7 @@ async function getSpotlights(){
     displaySpotlights(data.spotlights);
 }
 async function displaySpotlights(spotlights){
-    const cards = document.querySelector('#cards');
+    const cards = document.querySelector('#spotlights');
 
     spotlights.forEach((spotlight)=>{
         let card = document.createElement("section");
@@ -17,8 +17,6 @@ async function displaySpotlights(spotlights){
         h2.textContent = `${spotlight.name}`;
         level.textContent = `${spotlight.level}`;
         message.textContent = `${spotlight.message}`
-
-
 
         card.appendChild(h2);
         cards.appendChild(message);
